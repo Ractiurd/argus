@@ -40,6 +40,27 @@ Argus streamlines the reconnaissance process by allowing users to define search 
 - **-i:** Print only IP addresses.
 - **-o:** Save results to a file.
 
+ # Dorks argus use
+**SSL Certificate Subject Common Name and HTTP Status Code 200:**
+   ```plaintext
+   ssl.cert.subject.CN:"example.com" 200
+```
+**Hostname and HTTP Status Code 200:**
+   ```plaintext
+   shostname:"example.com" 200
+```
+**SSL Version and HTTP Status Code 200**
+   ```plaintext
+   ssl:"example.com" 200
+```
+**Organization Name and HTTP Status Code 200:**
+   ```plaintext
+   org:"YourOrg" 200
+```
+**ASN and HTTP Status Code 200:**
+   ```plaintext
+   asn:"AS12345" 200
+```
 # Conclusion
 
 Argus represents a new era in reconnaissance, offering a powerful and flexible approach to information gathering. Whether you are a security professional conducting targeted assessments or a researcher exploring the expansive world of cybersecurity, Argus is designed to elevate your reconnaissance capabilities.
